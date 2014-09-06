@@ -1,11 +1,11 @@
 /* global describe, it, expect */
 
-var pkg = require('..');
+var bixby = require('..');
 
 describe('bixby', function() {
   
-  it('should export object', function() {
-    expect(pkg).to.be.an('object');
+  it('should export component suites', function() {
+    expect(bixby.common).to.be.a('function');
   });
   
 });
