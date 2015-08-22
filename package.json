@@ -25,7 +25,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "bixby-common": "0.0.1"
+    "utils-flatten": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "1.x.x",
