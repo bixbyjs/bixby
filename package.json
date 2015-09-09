@@ -25,6 +25,7 @@
   ],
   "main": "./lib",
   "dependencies": {
+    "toml": "^2.3.0",
     "utils-flatten": "^1.0.0"
   },
   "devDependencies": {
