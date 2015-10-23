@@ -25,6 +25,7 @@
   ],
   "main": "./lib",
   "dependencies": {
+    "electrolyte": "^0.2.0",
     "parent-require": "^1.0.0",
     "toml": "^2.3.0",
     "utils-flatten": "^1.0.0"
