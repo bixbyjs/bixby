@@ -17,10 +17,11 @@
   "bugs": {
     "url": "http://github.com/bixbyjs/bixby/issues"
   },
+  "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
+      "url": "http://opensource.org/licenses/MIT"
     }
   ],
   "main": "./lib",
