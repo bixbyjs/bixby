@@ -32,8 +32,9 @@
     "utils-flatten": "^1.0.0"
   },
   "devDependencies": {
-    "mocha": "1.x.x",
-    "chai": "1.x.x"
+    "make-node": "0.3.x",
+    "mocha": "2.x.x",
+    "chai": "3.x.x"
   },
   "engines": {
     "node": "*"
