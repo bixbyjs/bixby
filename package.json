@@ -26,7 +26,6 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "bixby-common": "^0.1.1",
     "electrolyte": "^0.4.0",
     "parent-require": "^1.0.0",
     "toml": "^2.3.0",
