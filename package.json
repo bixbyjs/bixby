@@ -28,8 +28,12 @@
   "dependencies": {
     "electrolyte": "^0.5.0",
     "parent-require": "^1.0.0",
+    "pkg-dir": "^2.0.0",
     "pkginfo": "^0.4.0",
+    "read-pkg-up": "^3.0.0",
     "recur-fs": "^2.2.4",
+    "require-resolve": "0.0.2",
+    "scripts": "^0.1.0",
     "toml": "^2.3.0",
     "utils-flatten": "^1.0.0"
   },
