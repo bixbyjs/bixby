@@ -1,6 +1,6 @@
 {
   "name": "bixby",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Lightweight microservices framework for Node.js.",
   "keywords": [
     "microservices"
