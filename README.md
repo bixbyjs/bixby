@@ -1,4 +1,7 @@
-# bixby
+# Bixby
+
+Bixby is a service-oriented framework for building cloud-native [Node.js](https://nodejs.org)
+applications.
 
 Bixby.js is a lightweight approach to developing microservices with Node.js.  It
 provides a cohesive suite of components that makes it easy to write services
