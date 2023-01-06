@@ -46,4 +46,20 @@ describe('resolvers/auto', function() {
     }).to.throw('Multiple components provide interface "com.example.IObject" required by "unknown". Configure one of: example/object1, example/object2');
   });
   
+  it('should throw message including parent component ID when multiple components implement interface', function() {
+    var container = new Object();
+    container.components = sinon.stub().returns([{
+      id: 'example/object1',
+      implements: [ 'com.example.IObject' ]
+    }, {
+      id: 'example/object2',
+      implements: [ 'com.example.IObject' ]
+    }]);
+    
+    var resolve = auto(container);
+    expect(function() {
+      var id = resolve('com.example.IObject', 'example/main');
+    }).to.throw('Multiple components provide interface "com.example.IObject" required by "example/main". Configure one of: example/object1, example/object2');
+  });
+  
 });
