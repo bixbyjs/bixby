@@ -43,7 +43,7 @@ describe('resolvers/auto', function() {
     var resolve = auto(container);
     expect(function() {
       var id = resolve('com.example.IObject');
-    }).to.throw('Multiple components provide interface "com.example.IObject" required by "unknown". Configure one of: example/object1, example/object2');
+    }).to.throw("Multiple components provide interface 'com.example.IObject' required by 'unknown'. Configure one of: example/object1, example/object2");
   });
   
   it('should throw message including parent component ID when multiple components implement interface', function() {
@@ -59,7 +59,7 @@ describe('resolvers/auto', function() {
     var resolve = auto(container);
     expect(function() {
       var id = resolve('com.example.IObject', 'example/main');
-    }).to.throw('Multiple components provide interface "com.example.IObject" required by "example/main". Configure one of: example/object1, example/object2');
+    }).to.throw("Multiple components provide interface 'com.example.IObject' required by 'example/main'. Configure one of: example/object1, example/object2");
   });
   
 });
