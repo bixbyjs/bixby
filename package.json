@@ -37,7 +37,7 @@
   "devDependencies": {
     "chai": "^4.3.7",
     "make-node": "0.3.x",
-    "mocha": "2.x.x",
+    "mocha": "10.x.x",
     "sinon": "^15.0.1",
     "sinon-chai": "^3.7.0"
   },
