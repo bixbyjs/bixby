@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.6] - 2023-10-19
+
+TODO: Review this for accuracy.
+
+### Changed
+- Upgraded `electrolyte` dependency to version 0.7.x.
+
 ## [0.2.5] - 2020-10-01
 
 ## [0.2.4] - 2019-02-20
