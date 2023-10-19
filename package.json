@@ -27,7 +27,7 @@
   "main": "./lib",
   "dependencies": {
     "dotenv": "^6.2.0",
-    "electrolyte": "^0.6.0",
+    "electrolyte": "^0.7.0",
     "parent-require": "^1.0.0",
     "pkginfo": "^0.4.0",
     "recur-fs": "^2.2.4",
