@@ -17,6 +17,7 @@ TODO: Review this for accuracy.
 
 ## [0.2.4] - 2019-02-20
 
-[Unreleased]: https://github.com/bixbyjs/bixby/compare/v0.2.5...HEAD
+[Unreleased]: https://github.com/bixbyjs/bixby/compare/v0.2.6...HEAD
+[0.2.6]: https://github.com/bixbyjs/bixby/compare/v0.2.5...v0.2.6
 [0.2.5]: https://github.com/bixbyjs/bixby/compare/v0.2.4...v0.2.5
 [0.2.4]: https://github.com/bixbyjs/bixby/compare/v0.2.3...v0.2.4
