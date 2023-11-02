@@ -26,7 +26,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "dotenv": "^6.2.0",
+    "dotenv": "^16.3.1",
     "electrolyte": "^0.7.0",
     "parent-require": "^1.0.0",
     "pkginfo": "^0.4.0",
