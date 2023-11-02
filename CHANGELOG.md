@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.7] - 2023-11-02
+### Added
+- Loading environment variables from `.env.{NODE_ENV}` file.
+
+### Changed
+- Upgraded `dotenv` dependency to version 16.x.
+
 ## [0.2.6] - 2023-10-19
 
 TODO: Review this for accuracy.
@@ -17,7 +24,8 @@ TODO: Review this for accuracy.
 
 ## [0.2.4] - 2019-02-20
 
-[Unreleased]: https://github.com/bixbyjs/bixby/compare/v0.2.6...HEAD
+[Unreleased]: https://github.com/bixbyjs/bixby/compare/v0.2.7...HEAD
+[0.2.7]: https://github.com/bixbyjs/bixby/compare/v0.2.6...v0.2.7
 [0.2.6]: https://github.com/bixbyjs/bixby/compare/v0.2.5...v0.2.6
 [0.2.5]: https://github.com/bixbyjs/bixby/compare/v0.2.4...v0.2.5
 [0.2.4]: https://github.com/bixbyjs/bixby/compare/v0.2.3...v0.2.4
