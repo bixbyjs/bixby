@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.7] - 2024-05-02
+### Added
+- `$uri` variable which can be `@require`'d.  Value is set to result of
+highest-priority `URI` record found via service discovery.
+
 ## [0.2.7] - 2023-11-02
 ### Added
 - Loading environment variables from `.env.{NODE_ENV}` file.
