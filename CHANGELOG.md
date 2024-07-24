@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.8] - 2024-05-02
+### Added
+- `$uri` variable which can be `@require`'d.  Value is set to result of
+highest-priority `URI` record found via service discovery.
+
 ## [0.2.7] - 2023-11-02
 ### Added
 - Loading environment variables from `.env.{NODE_ENV}` file.
@@ -24,7 +29,8 @@ TODO: Review this for accuracy.
 
 ## [0.2.4] - 2019-02-20
 
-[Unreleased]: https://github.com/bixbyjs/bixby/compare/v0.2.7...HEAD
+[Unreleased]: https://github.com/bixbyjs/bixby/compare/v0.2.8...HEAD
+[0.2.8]: https://github.com/bixbyjs/bixby/compare/v0.2.7...v0.2.8
 [0.2.7]: https://github.com/bixbyjs/bixby/compare/v0.2.6...v0.2.7
 [0.2.6]: https://github.com/bixbyjs/bixby/compare/v0.2.5...v0.2.6
 [0.2.5]: https://github.com/bixbyjs/bixby/compare/v0.2.4...v0.2.5
