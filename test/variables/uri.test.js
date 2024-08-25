@@ -23,7 +23,7 @@ describe('variables/uri', function() {
     factory(C, comp)
       .then(function(uri) {
         expect(C.create).to.have.been.calledOnceWith('http://i.bixbyjs.org/ns/Resolver');
-        expect(resolver.resolve).to.have.been.calledOnceWith('_foo._tcp.undefined', 'URI');
+        expect(resolver.resolve).to.have.been.calledOnceWith('_foo._tcp', 'URI');
         expect(uri).to.equal('ftp://ftp1.example.com/public');
         done();
       });
