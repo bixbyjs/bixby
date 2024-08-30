@@ -20,7 +20,7 @@ describe('variables/uri', function() {
       }
     };
     
-    factory(C, comp)
+    factory.call(C, 'foo')
       .then(function(uri) {
         expect(C.create).to.have.been.calledOnceWith('http://i.bixbyjs.org/ns/Resolver');
         expect(resolver.resolve).to.have.been.calledOnceWith('_foo._tcp', 'URI');

@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 to search a list of configured domains.
 - `$location` variable renamed to `$srv`, matching the name of the resource
 record.
+- Variable functions updated to take structured parameters as arguments,
+corresponding to latest changes in `electrolyte`.
 
 ## [0.2.8] - 2024-05-02
 ### Added
