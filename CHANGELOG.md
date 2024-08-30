@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - `$uri` variable resolution no longer appends a domain.  Resolver is expected
 to search a list of configured domains.
+- `$location` variable renamed to `$srv`, matching the name of the resource
+record.
 
 ## [0.2.8] - 2024-05-02
 ### Added
