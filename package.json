@@ -31,6 +31,7 @@
     "parent-require": "^1.0.0",
     "pkginfo": "^0.4.0",
     "recur-fs": "^2.2.4",
+    "run-parallel": "^1.2.0",
     "toml": "^2.3.0",
     "utils-flatten": "^1.0.0"
   },
